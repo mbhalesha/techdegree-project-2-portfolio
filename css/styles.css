@@ -213,6 +213,7 @@ black: 101419 */
     .box6 {
         float: left;
         width: 50%;
+        height: 35em;
     }
 
     .skills li {
