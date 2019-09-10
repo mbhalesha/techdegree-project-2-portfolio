@@ -1,0 +1,296 @@
+/* my goal is the "Exceeds Expectations" grade */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rasa', serif;
+    line-height: 1.5em;
+    color: #476C9B;
+    text-align: center;
+    }
+
+.home {
+    height: 4em;
+    width: .1em;
+    background-color: white;
+}
+
+p {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5em;
+    padding-top: .5em;
+    font-size: 1.3em;
+}
+
+.name {
+    font-size: 2em;
+    padding: 20px;
+}
+
+.main-header {
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(229, 234, 238);
+    width: 85%;
+    margin: 0 auto;
+}
+
+.main-nav li {
+    padding: .4em;
+    font-size: 1.3em;
+}
+
+.back-to-top:hover {
+    transform: translate(5px, 2%);
+}
+
+.main-nav li:hover {
+    transform: translate(5px, 2%);
+}
+
+.nav-bottom li:hover {
+    transform: translate(5px, 2%);
+}
+
+.banner {
+    margin: 20px;
+}
+
+img {
+    width: 90%;
+}
+
+.headline {
+    padding-bottom: 2em;
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #468C98;
+}
+
+a:hover {
+    color: #ADD9F4;
+}
+
+h1,
+h2, 
+h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #984447;   
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.name {
+    text-align: center;
+    display: block;
+}
+
+.image {
+    border: 2px solid black;
+    margin: .5em;
+}
+
+.intro {
+    padding: 1em;
+}
+
+.technical-skills,
+.soft-skills {
+    padding: 1em;
+}
+
+.skills li {
+    font-size: 1.3em;
+}
+
+.number,
+.address {
+    font-weight: bold;
+}
+
+.contact {
+    padding-bottom: 2em;
+}
+
+.contact p {
+    padding-bottom: 1em;
+}
+
+.contact-paragraph {
+    padding-bottom: 2em;
+}
+
+.main-footer {
+    border-top: solid .5px #468C98;
+    font-weight: bold;
+}
+
+.name-bottom {
+    float: left;
+}
+
+.back-to-top {
+    float: right;
+    font-size: 1.3em;
+    padding-top: 1.2em;
+}
+
+.nav-bottom {
+    display: none;
+} 
+
+.main-footer {
+    padding: .5em;
+}
+
+/* color scheme
+
+maroon: 984447
+light blue: ADD9F4
+dark blue: 476C9B - body
+teal blue: 468C98 - links
+black: 101419 */
+
+@media (min-width: 769px) {
+
+    body {
+        padding-top: 200px;
+    }
+    
+    .main-header {
+        position: fixed;
+        background: white;
+        box-shadow: 0 1px 4px rgba(0,0,0,.4);
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .intro {
+        float: left;
+        width: 50%;
+        padding: 1em;
+        text-align: left;
+    }
+
+    .manisha-bhalesha-picture {
+        float: right;
+        width: 30%;
+    }
+
+    .box1, 
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6 {
+        float: left;
+        width: 50%;
+    }
+
+    .skills li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .nav-bottom li {
+        display: inline-block;
+        font-size: .9em;
+    }
+
+    .back-to-top {
+        display: none;
+    }
+
+    .nav-bottom {
+        display: block;
+        float: right;
+        padding-top: 24px;
+        font-size: 1.3em;
+    }
+
+    .nav-bottom li {
+        margin-right: 1em;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}
+
+@media (min-width: 1025px) {
+
+    .container {
+        width: 100%;
+        display: block;
+    }
+
+    .banner {
+        padding: 1em;
+    }
+
+    .name {
+        float: left;   
+    }
+
+    .main-nav {
+        float: right;
+        padding-top: 1em;
+        padding-right: 2em;
+    }
+
+    .manisha-bhalesha-picture {
+        width: 20%;
+    }
+
+    .intro {
+        height: 15em;
+        width: 40em;
+    }
+
+    .box1, 
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6 {
+        float: left;
+        width: 33%;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+        
+}
