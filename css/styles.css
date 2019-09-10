@@ -20,11 +20,9 @@ body {
 }
 
 p {
-    width: 90%;
     margin: 0 auto;
-    padding-bottom: 5em;
     padding-top: .5em;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .name {
@@ -159,6 +157,10 @@ h3 {
     padding: .5em;
 }
 
+.both-skills {
+    clear: left;
+}
+
 /* color scheme
 
 maroon: 984447
@@ -214,6 +216,7 @@ black: 101419 */
         float: left;
         width: 50%;
         height: 35em;
+        margin-bottom: 30px;
     }
 
     .skills li {
