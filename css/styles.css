@@ -168,7 +168,7 @@ dark blue: 476C9B - body
 teal blue: 468C98 - links
 black: 101419 */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
     body {
         padding-top: 200px;
@@ -214,8 +214,8 @@ black: 101419 */
     .box6 {
         float: left;
         width: 50%;
-        height: 35em;
-        margin-bottom: 30px;
+        height: 25em;
+        margin-bottom: 40px;
     }
 
     .skills li {
@@ -250,7 +250,7 @@ black: 101419 */
       }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
 
     .container {
         width: 100%;
