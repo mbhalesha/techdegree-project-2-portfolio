@@ -266,6 +266,10 @@ black: 101419 */
         margin-right: 1em;
     }
 
+    .contact p {
+        font-size: 1.2em;
+    }
+
     .clearfix::after {
         content: "";
         display: table;
@@ -321,6 +325,10 @@ black: 101419 */
     .box5 p,
     .box6 p {
         padding: .5em;
+    }
+
+    .contact p {
+        font-size: 1.2em;
     }
 
     .clearfix::after {
