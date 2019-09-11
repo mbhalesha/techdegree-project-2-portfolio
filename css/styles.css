@@ -232,6 +232,15 @@ black: 101419 */
         margin-bottom: 40px;
     }
 
+    .box1 p, 
+    .box2 p,
+    .box3 p,
+    .box4 p,
+    .box5 p,
+    .box6 p {
+        padding: .4em;
+    }
+
     .skills li {
         display: inline-block;
         margin-right: 20px;
@@ -302,6 +311,16 @@ black: 101419 */
     .box6 {
         float: left;
         width: 33%;
+        margin-bottom: 4em;
+    }
+
+    .box1 p, 
+    .box2 p,
+    .box3 p,
+    .box4 p,
+    .box5 p,
+    .box6 p {
+        padding: .5em;
     }
 
     .clearfix::after {
