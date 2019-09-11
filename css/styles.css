@@ -43,6 +43,10 @@ p {
     font-size: 1.3em;
 }
 
+.back-to-top {
+    padding: 10px;
+}
+
 .back-to-top:hover {
     transform: translate(5px, 2%);
 }
@@ -159,6 +163,16 @@ h3 {
 .both-skills {
     clear: left;
 }
+
+.box1, 
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+        padding-bottom: 2em;
+}
+
 
 /* color scheme
 
