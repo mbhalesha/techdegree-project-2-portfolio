@@ -76,7 +76,8 @@ ul {
     list-style-type: none;
 }
 
-a:link {
+a:link,
+.address {
     text-decoration: none;
     color: #468C98;
 }
@@ -120,7 +121,6 @@ h3 {
     font-size: 1.3em;
 }
 
-.linkedin,
 .address {
     font-weight: bold;
 }
