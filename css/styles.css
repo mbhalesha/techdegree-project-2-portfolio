@@ -213,6 +213,9 @@ black: 101419 */
         width: 50%;
         padding: 1em;
         text-align: left;
+        margin-top: 42px;
+        font-size: 1.2em;
+        line-height: 1.4em;
     }
 
     .manisha-bhalesha-picture {
@@ -305,6 +308,9 @@ black: 101419 */
     .intro {
         height: 15em;
         width: 40em;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        margin: 0 auto;
     }
 
     .box1, 
