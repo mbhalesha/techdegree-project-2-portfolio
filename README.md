@@ -11,3 +11,10 @@ This Profile contains
 - Portfolio section featuring six of my projects 
 - Skills section that includes my Technical Skills and Soft Skills
 - My Contact information that includes my LinkedIn Profile link and Email address
+
+<br>
+<br>
+
+- I learned how to include media queries for screen sizes 768px and 1024px.
+- I learned how to include the float property, display property, as well as how to target sibling selectors.
+- I learned how to add a fixed header.
