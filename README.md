@@ -1,4 +1,4 @@
-My Techdegree Project 2: Profile - Mobile-first Responsive Layout
+# My Techdegree Project 2: Profile - Mobile-first Responsive Layout
 
 https://mbhalesha.github.io/techdegree-project-2-portfolio/
 
